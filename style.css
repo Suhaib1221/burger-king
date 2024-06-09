@@ -1,0 +1,482 @@
+:root {
+  --text-bg-color: #d62300;
+  --text-bg-br-color: #502314;
+  --bg-color: #F2D7C6;
+}
+
+
+@font-face {
+  font-family: flamebold;
+  src: url(flame-3-cufonfonts/FlameBold.otf);
+}
+
+@font-face {
+  font-family: flameregular;
+  src: url(flame-3-cufonfonts/FlameRegular.otf);
+}
+
+@font-face {
+  font-family: flamesans;
+  src: url(flame-3-cufonfonts/FlameSans.otf);
+}
+
+@font-face {
+  font-family: flamecondensed;
+  src: url(flame-3-cufonfonts/FlameCondensed.otf);
+}
+
+
+body {
+  background: #F5EBDC;
+  box-sizing: border-box;
+}
+
+/* html {
+ 
+    height: calc(100% + env(safe-area-inset-top));
+} */
+
+
+/* ---------------------------------------------button-styles---------------------------------------------- */
+.showcase-btn {
+  width: 80%;
+}
+
+.showcase-btn2 {
+  display: none;
+}
+
+.btn-2 {
+  display: none;
+}
+
+.button {
+  font-family: flameregular;
+  font-size: 15px;
+  padding: 8px 16px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.red {
+  background-color: rgb(214, 35, 0);
+  color: white;
+  border: 1px solid rgb(214, 35, 0);
+}
+
+.red:hover {
+  background-color: #A71B00;
+  color: white;
+}
+
+
+.brown {
+  background-color: rgb(80, 35, 20);
+  color: white;
+  border: 1px solid var(--text-bg-br-color);
+
+
+}
+
+.tr-bg {
+  background-color: transparent;
+  color: var(--text-bg-color);
+  border: 1px solid var(--text-bg-color);
+  outline: none;
+}
+
+.tr-bg:hover {
+  background: #F2D7C6;
+}
+
+.tr-bg-btn {
+  /* padding: 16px 16px; */
+  border: 1px solid var(--text-bg-color);
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--text-bg-color);
+}
+
+.tr-bg-btn:hover {
+  background: #F2D7C6;
+  /* color: white; */
+}
+
+/* --------------------------------------------------nave-bootom-line------------------------------------------------ */
+
+.r-51vpuj {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1.41px;
+}
+
+/*--------------------------------------------------- nav styling----------------------------------------------------- */
+
+
+.container-fluid {
+  min-height: 3.5rem;
+}
+
+.bar {
+  width: 24px;
+  height: 3px;
+  background-color: var(--text-bg-br-color);
+  margin: 4px 0;
+}
+
+
+
+
+/* ---------------------------------------------- 2nd line start showcase-------------------------------------------- */
+
+.showcase-content {
+  height: 50%;
+  padding: 48px 28px 48px 0px;
+}
+
+.showcase-content h1 {
+  font-size: 60px;
+  /* font-size: calc(60px + 0.5vw); */
+  color: var(--text-bg-br-color);
+  line-height: 1.25em;
+  text-align: start;
+  font-family: flamebold;
+  font-weight: bolder;
+}
+
+
+
+/* .padding {
+  padding: 16px 16px;
+} */
+
+
+
+/* .p-d {
+  font-size: calc(60px + 0.5vw);
+} */
+
+/* ---------------------------------------------showcase-btn-font-styles---------------------------------------------- */
+
+.f {
+  padding-left: 5px;
+  font-size: 16px;
+  font-weight: 900;
+  font-family: flameregular;
+}
+
+/* ---------------------------------------------showcase-btn-font-size---------------------------------------------- */
+
+.gif-cont {
+  width: 100%;
+  height: 100%;
+}
+
+.gif-cont img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* -----------------------------------------------card-styling------------------------------------ */
+
+.card-col {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0;
+}
+
+.card-row .card-col img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 1.8rem 1.8rem 0rem 0rem;
+}
+
+.card-content {
+  width: 100%;
+  padding: 20px;
+}
+
+.card-content h2 {
+  /* font-size: 24px; */
+  font-family: flameregular;
+  color: var(--text-bg-br-color);
+}
+
+.card-col {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 1px 2.22px;
+  width: 49%;
+}
+
+.card-link {
+  margin: 8px 0px;
+  font-size: 13px;
+  font-family: flameregular;
+  color: var(--text-bg-br-color);
+}
+
+.card-row {
+  justify-content: space-between;
+}
+
+
+/* --------------------------third-line------------------------- */
+
+.third-line {
+  background-color: rgba(0, 0, 0, 0.04);
+  margin-top: 150px;
+}
+
+
+.pointer {
+  cursor: pointer;
+}
+
+.home {
+  color: var(--text-bg-color);
+}
+
+.home i {
+  color: var(--text-bg-color);
+  font-size: 18px;
+}
+
+.mobile-row {
+  position: relative;
+}
+
+.mobile {
+  place-items: center;
+}
+
+.mobile-1 {
+  position: absolute;
+  bottom: 40px;
+}
+
+.mobile-2 {
+  display: none;
+  position: absolute;
+}
+
+
+
+.app-links {}
+
+
+
+
+/* forth-line */
+
+
+.p-link-content h2 {
+  color: var(--text-bg-br-color);
+  font-size: 48px;
+  font-family: flamebold;
+  font-stretch: 100%;
+}
+
+.p-link-content-para p {
+  font-size: 14px;
+  font-stretch: 100%;
+  font-family: flamesans;
+  color: var(--text-bg-br-color);
+  font-weight: lighter;
+}
+
+.p-link-a-link {
+  padding: 50px 0px;
+}
+
+
+/* ----------------------footer--------------------- */
+
+.last {
+
+  background-color: var(--text-bg-br-color);
+}
+
+.footer {
+  color: var(--bg-color);
+  text-align: center;
+  padding: 16px;
+  font-size: 12px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: var(--bg-color);
+}
+
+
+
+
+
+
+/* --------------------------------------------coustem-media-query----------------------------------------------- */
+
+@media (max-width:1200px) {
+  /* .showcase-content h1 {
+    font-size: 60px;
+  } */
+}
+
+@media (max-width:992px) {
+  .showcase-content h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width:956px) {
+  /* .mobile-1 {
+    display: none;
+  }
+
+  .mobile-2 {
+    display: block;
+  } */
+}
+
+@media (max-width:767px) {
+
+  .showcase-img {
+    padding: 0px;
+  }
+
+  .third-line{
+    margin-top: 50px;
+  }
+
+  .mobile-1 {
+    display: none;
+  }
+
+  .gif-cont {
+    width: 100%;
+    height: auto;
+  }
+
+  .showcase-img .gif-cont img {
+    width: 100% !important;
+    height: 70% !important;
+    object-fit: contain;
+  }
+
+  .showcase-content {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+  }
+
+  .showcase-btn {
+    /* width: 100% !important; */
+    display: none;
+  }
+
+  .showcase-btn2 {
+    display: block;
+  }
+
+  .showcase-content h1 {
+    text-align: center !important;
+  }
+
+  .btn.w-80 {
+    width: 100%;
+  }
+
+  .p-link-content h2 {
+    font-size: 40px;
+  }
+
+  /* ------------------------------------card media query---------------------------------------------- */
+
+  .card-col {
+    width: 100%;
+  }
+
+}
+
+/* ------------------------------this media query is for nave icon and logo---------------------------------------- */
+
+@media (max-width:576px) {
+  .p-link-content h2 {
+    font-size: 32px;
+  }
+
+  .p-link-content p {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 454px) {
+  .s {
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+  }
+
+  .ss {
+    flex: 0 0 49.66667%;
+    max-width: 49.66667%;
+  }
+
+
+}
+
+@media (max-width:350px) {
+  .btn-2 {
+    display: block;
+  }
+
+  .btn-none {
+    display: none;
+  }
+
+
+}
+
+
+
+/* ///////////////////////////------------------------------0000000000000000000000////////// */
+
+
+/* Desktops (1281px and higher) */
+@media (min-width: 1281px) {
+  .mobile-1 {
+    bottom: 0%;
+    top: -12%;
+  }
+}
+
+/* Laptops and Desktops (1025px to 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .mobile-1 {
+    bottom: 0%;
+    top: -8%;
+  }
+}
+
+/* Tablets and iPads (Portrait) (768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .p-link-a-link {
+    padding: 20px 0px;
+  }
+
+  .mobile-1 {
+    /* bottom: 0px;
+    top: -40px; */
+    width: 100%;
+    object-fit: cover;
+  }
+
+}
+
+/* Low Resolution Tablets, Mobiles (Landscape) (481px to 767px) */
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* Most Smartphones (Portrait) (320px to 480px) */
+@media (min-width: 320px) and (max-width: 480px) {}
